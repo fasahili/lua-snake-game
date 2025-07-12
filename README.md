@@ -1,9 +1,17 @@
 #  Lua Snake Game
 
+This project is a simple but complete implementation of the classic **Snake Game** using modern programming patterns in **Lua**, designed specifically to demonstrate fundamental concepts in **game development**.
+
+Built on the powerful and lightweight **Love2D game framework**, the game follows clean architectural patterns such as:
+
+- **State Management** (for separating menu/gameplay logic),
+- **Entity-Component Systems (ECS)** (for handling snake properties),
+- **Command Pattern** (for flexible input control), and
+- **Observer/Event System** (bonus challenge to decouple logic).
 A simple Snake Game implemented using **modern Lua patterns** and **Love2D** game framework.
 ---
 
-## 🖥️ Demo
+## Demo
 
 ![Demo](states/lueSnake-gif.gif)
 
@@ -28,10 +36,7 @@ A simple Snake Game implemented using **modern Lua patterns** and **Love2D** gam
 ---
 
 
-
----
-
-## 🚀 Run the Game
+##  Run the Game
 
 Make sure you have [LÖVE 2D](https://love2d.org/) installed.
 
