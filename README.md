@@ -1,31 +1,33 @@
 #  Lua Snake Game
 
 A simple Snake Game implemented using **modern Lua patterns** and **Love2D** game framework.
-
-
----
-
-## 🎮 Features
-
-- 🧠 **Game State Manager** (Menu & Playing)
-
-- 🧱 **Entity-Component System** for modular design
-
-- 📂 **High Score System** using Lua 5.4 `to-be-closed`
-
-- ➕ **Vector2 Class** with custom metamethods (`__add`, `__eq`, `__tostring`)
-
-- 🍎 **Snake Game Mechanics** (movement, food, collision, scoring)
-
-- 🎮 **Command Pattern** for input handling
-
-- 🔔 **(Bonus)** Simple Observer Pattern for events
-
 ---
 
 ## 🖥️ Demo
 
-![Demo](demo/demo.gif)
+![Demo](states/lueSnake-gif.gif)
+
+---
+
+##  Features
+
+-  **Game State Manager** (Menu & Playing)
+
+-  **Entity-Component System** for modular design
+
+-  **High Score System** using Lua 5.4 `to-be-closed`
+
+-  **Vector2 Class** with custom metamethods (`__add`, `__eq`, `__tostring`)
+
+-  **Snake Game Mechanics** (movement, food, collision, scoring)
+
+-  **Command Pattern** for input handling
+
+-  **(Bonus)** Simple Observer Pattern for events
+
+---
+
+
 
 ---
 
@@ -39,7 +41,7 @@ Then run the game using the following command in your terminal:
 love .
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 snake_game/
